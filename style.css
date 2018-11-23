@@ -60,12 +60,72 @@
     margin-top: 30px;
 }
 
+.gmailLogon {
+    background-size: 32px 32px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display:inline-block;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
+    background-color:darkgreen;
+    text-align: center;
+    color: #f1f1f1;
+    vertical-align: center;
+}
+#top-menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+}
+#left-align-menu {
+    align-items: flex-start;
+    }
+
+#right-align-menu {
+        align-items: flex-end;
+  }
+  .top-menu-links {
+      display:inline-block;
+      padding:10px;
+  }
+  a:link.top-menu-links {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+  }
+  a:visited.top-menu-links {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+  }
+  a:hover.top-menu-links {
+    color: rgba(0,0,0,0.87);
+    text-decoration: underline;
+  }
+  a:active.top-menu-links {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+  }
 #container {
     width:100%;
     text-align: center;
     display: block;
+    height:100%;
 }
 
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flex-item {
+
+}
 .hb2Smf {
     background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
     height: 24px;

@@ -2,29 +2,47 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Google</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Google</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <div id="container">
-
-            <div class="logo"><img src="googlelogo_color_272x92dp.png" alt="googlelogo"></div>
-            <div class=""><form action="post"><input type="text" class="searchBar"><div class="voice_search_button" aria-label="Search by voice"><span class="hb2Smf"></span></div></form></div>
-        
-        <center id="searchButtonContainer"> <input class="buttons" value="Google Search" aria-label="Google Search" name="btnK" type="submit"> <input class="buttons" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" name="btnI" type="submit" jsaction="sf.lck">  </center>
+    <div id="top-menu">
+        <div id="left-align-menu"><a href="#" class="top-menu-links">About</a><a href="#" class="top-menu-links">Store</a></div>
+        <div id="right-align-menu"><a href="#"class="top-menu-links" >Gmail</a><a href="#" class="top-menu-links">Images</a><a href="#"class="top-menu-links">APP STORE</a><a href="#"class="gmailLogon">D</a></div>
     </div>
-        
-        <script src="" async defer></script>
 
-    </body>
+    <div id="container">
+        <div class="flex-container">
+           
+        <div class="logo flex-item"><img src="googlelogo_color_272x92dp.png" alt="googlelogo"></div>
+
+        <div class="flex-item">
+            <form action="post"><input type="text" class="searchBar">
+                <div class="voice_search_button" aria-label="Search by voice"><span class="hb2Smf"></span></div>
+            </form>
+        </div>
+        
+        <div class="flex-item" id="searchButtonContainer"> 
+            <input class="buttons" value="Google Search" aria-label="Google Search" name="btnK" type="submit"> 
+            <input class="buttons" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky"name="btnI" type="submit"> 
+        </div>
+    </div>
+
+    <script src="" async defer></script>
+
+</body>
+
 </html>
